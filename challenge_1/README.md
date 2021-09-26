@@ -28,10 +28,13 @@ It creates the below services :
 9.  Application Load balancer - For High availablilty of application
 10. S3 - For Loadbalancedr logs
 
-For web layer it creates an EC2 instance maped to ALB ( Application Load Balancer) using Listener with Port-80 in Public subnet
-For Application Layer it creates an Auto-scaling group with min-2 EC2 instances maped to INternal-ALB ( Application Load Balancer) in Private subnet
-For DB Layer it creates an RDS instance in Private subnet (mutli-AZ available)
+For `web layer` it creates an EC2 instance maped to ALB ( Application Load Balancer) using Listener with Port-80 in Public subnet.
+
+For `Application Layer` it creates an Auto-scaling group with min-2 EC2 instances maped to INternal-ALB ( Application Load Balancer) in Private subnet.
+
+For `DB Layer` it creates an RDS instance in Private subnet (mutli-AZ available).
 
 
 ##Architecture 
+![image](https://user-images.githubusercontent.com/90919654/134827346-779fc0b7-2291-4912-92e3-b455424c64e0.png)
 
