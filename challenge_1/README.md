@@ -35,6 +35,6 @@ For `Application Layer` it creates an Auto-scaling group with min-2 EC2 instance
 For `DB Layer` it creates an RDS instance in Private subnet (mutli-AZ available).
 
 
-##Architecture 
+## Architecture 
 ![image](https://user-images.githubusercontent.com/90919654/134827346-779fc0b7-2291-4912-92e3-b455424c64e0.png)
 
